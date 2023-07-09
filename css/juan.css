@@ -1,16 +1,19 @@
+/*top bar*/
 header {
    background-color: #32B7B7;
    margin: auto;
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   max-width: 1460px;
    min-width: 100%;
    
-} 
+}   
+
+.header-event {
+   max-width: 100%;
+}
 
 .nav-items{
-   min-width: 20%;
 
    display: flex;
   
@@ -57,181 +60,83 @@ a {
 }
 
 
-
-
-
-
-
-
-
-/* .body {
-   background-color: #E8E8E8;
-
-   height: 1440px;
-   width: 1865px;
-   left: 1325px;
-   top: -269px;
-   border-radius: 0px;
-   margin: auto;
-   padding: 10px;
-   display: flex;
-   flex-direction: column;
-   
-
-} */
-
-.body {
-   background-color: #E8E8E8;
-
-   height: 1440px;
-   width: 1440px;
-   left: 1325px;
-   top: -269px;
-   border-radius: 0px;
-   margin: auto;
-   /* padding: 10px; */
-   display: flex;
-   flex-direction: column;
-
-   width: 100%;
-
-   
-
-}
-
+/*body*/
 
 
 body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-
+   background: url(canciones.jpg)
 }
 
-
-.caja {
-   width: 450px;
-   height: 250px;
-   margin: auto;
-   /* padding: 25px; */
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* right: 500px; tenia este*/
-   right: 450px;
-   top: 150px;
-
- 
-}
-
-.caja2 {
-   width: 450px;
-   height: 250px;
-   /* padding: 25px; */
-   margin: auto;
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* right: 500px; */
-   right: 450px;
-   top: 300px;
- 
-}
-
-.caja3 {
-   width: 450px;
-   height: 250px;
-   /* padding: 25px; */
-   margin: auto;
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* right: 500px; */
-   right: 450px;
-   top: 450px;
-    }
-
-.caja4 {
-   width: 450px;
-   height: 250px;
-   /* padding: 25px; */
-   margin: auto;
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* left: 500px; tenia este*/
-   left: 450px;
-   bottom: 645px;
-    }
-
-.caja5 {
-   width: 450px;
-   height: 250px;
-   /* padding: 25px; */
-   margin: auto;
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* left: 500px; */
-   left: 450px;
-   bottom: 495px;
-    }
-
-.caja6 {
-   width: 450px;
-   height: 250px;
-   /* padding: 25px; */
-   margin: auto;
-   border: 1px solid white;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
-   text-align: left;
-   padding: 10px;
-   position: relative;
-   /* left: 500px; */
-   left: 450px;
-   bottom: 345px;
-    }
-
-.flex-container {
-   margin: auto;
-   /* width: 15%;
-   height: 5%; */
-   width: 200px;
-   height: 30px;
-   position: relative;
-   bottom: 270px;
-   display: flex;
-   justify-content: space-between;
-   padding: 8px;
-   font-weight: bold;
-   border: 1px solid #E8E8E8;
-   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-   border-radius: 15px;
-   background-color: white;
+.head_principal {
    
+   display: flex;
+   justify-content: space-evenly;
+   margin: auto;
+   
+
+
+
 }
+
+
+.container_a  div {
+   flex-direction: column;
+   background-color: #65dbdb;
+   /* background: url(canciones.jpg); */
+   width: 500px;
+   height: 400px;
+   text-align: center;
+   border: 1px solid rgb(245, 237, 237);
+   border-radius: 15px;
+   padding: 10px;
+   font-size: 1rem;
+   color: rgb(10, 9, 9)
+}
+
+.container_a a:hover {
+   color: rgb(219, 134, 23);
+}
+
+
+.container_b div {
+   flex-direction: column;
+   background-color: #65dbdb;
+   width: 500px;
+   height: 400px;
+   text-align: center;
+   border: 1px solid rgb(245, 237, 237);
+   border-radius: 15px;
+   padding: 10px;
+   font-size: 1rem;
+   color: rgb(10, 9, 9)
+
+}
+
+.container_b a:hover {
+   color: rgb(219, 134, 23);
+}
+
+.sub-head div {
+
+   display: flex;
+   flex-direction: row;
+}
+
+.flex-container { 
+
+   justify-content: space-around;
+   margin: auto;
+   border: 1px solid #E8E8E8;
+   background-color: #65dbdb;
+   border-radius: 1px;
+   height: 30px;
+   width: 200px;
+   border-radius: 15px;
+}
+
 
 .number {
    position: relative;
@@ -239,7 +144,7 @@ body {
 }
 
 .number a:hover {
-   color: #32B7B7;
+   color: rgb(219, 134, 23)
 }
 
 .icon-litle { 
@@ -248,16 +153,16 @@ body {
 }
 
 
-
+/*bottom bar*/
 footer {
 
    background-color: #32B7B7;
-   /* margin: center; tenia este*/
    margin: auto;
    display: flex;
    justify-content: space-between;
    width: 1460px;
    min-width: 100%;
+   min-height: 100%;
 }
 
 
@@ -272,15 +177,11 @@ footer {
    height: 25px;
 }
 
-.icon3 {
+.icon3 {  
 
    background-color: #32B7B7;
-   /*min-width: 3%;*/
    display: flex;
    align-items: center;
-   /*font-size: 4rem;*/
-   /*max-width: 20%;*/
-
    margin: 0 10px;
 
 }
@@ -300,7 +201,7 @@ footer {
 
 }
 
-
+/*flexbox*/
 .center{
 
    display: flex;
@@ -325,4 +226,32 @@ footer {
 
 }
 
+/*responsive*/
 
+@media screen and (max-width: 400px) {
+
+   .head_principal {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+   
+
+   }   
+   
+      body {
+         min-width: 370%;
+
+      }
+
+      .container_a { 
+         padding: 5%;
+      }
+
+      .container_b {
+         padding: 5%;
+      }
+
+   }
+
+   
+   
