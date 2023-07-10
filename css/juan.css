@@ -5,7 +5,6 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   min-width: 100%;
    
 }   
 
@@ -160,9 +159,8 @@ footer {
    margin: auto;
    display: flex;
    justify-content: space-between;
-   width: 1460px;
    min-width: 100%;
-   min-height: 100%;
+
 }
 
 
@@ -251,7 +249,55 @@ footer {
          padding: 5%;
       }
 
+
+   }
+
+   /*Login*/
+
+
+   .form_regis {
+
+      background-color: #32B7B7;
+      border-radius: 15px;
+      margin: 60px;
+      width: 30%;
+      padding: 20px;
+      text-align: center;
+      
+   }
+
+   .form_login {
+
+      background-color: #32B7B7;
+      border-radius: 15px;
+      margin: 60px;
+      width: 30%;
+      max-height:30rem;
+      padding: 20px;
+      text-align: center;
+      
+   }
+
+   form {
+      font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+   input[type="text"]{width: 200px;}
+
+   input{
+      
+      text-align: center;
+      margin: auto;
+      padding: 8px;
+      border-radius: 20px;
    }
 
    
+
+
+      
+   
+            
+      
    
