@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\css\dam.css">
+    <link rel="stylesheet" href="..\css\juan.css">
     <link rel="shortcut icon" href= "../assets/imgs/logo.png"/>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,23 +13,46 @@
     <title>Sobre Nosotros</title>
 </head>
 <body>
-    <header class="header"> <!--Block-->
-        <div class="header__logo-container">
-            <a href="..\index.html">
-                <img class="header__logo" src="..\assets\imgs\logo.png" alt="Logo">
-            </a>
+    <header class="header-event">
+
+        <div class="Icon1"> 
+            
+            <a href="../index.html" target="_blank"><img src="../assets/imgs/logo.png" alt="EventTracker"></a>
+        
         </div>
-        <div class="header__navBar-container">
-            <ul class="header__list-container">
-                <li class="header__item-navBar">
-                    <a href="../index.html">Home</a>
+
+        <nav class="nav-items">
+
+            <ul class="items">
+                
+                <li class="enlaces-items">
+                    <a href="../index.html" target="_blank">Home</a>
                 </li>
-            </ul>
-        </div>
-    </header>
-    <main>
+                <li class="enlaces-items">
+                    <a href="../docs/sobreNosotros.html" target="_blank">Sobre nosotros</a>
+                </li>
+                <li class="enlaces-items">
+                    <a href="../docs/Login.html" target="_blank">Login</a>
+                </li>
+
+            </ul> 
+
+        </nav>
+
+    </header> <br><br>
+
+    <div class="tittle">
+
         <h1>¡Explora, sigue y disfruta los mejores eventos con EventTracker!</h1>
+
+    </div>
+
+    <main class="head_principal">
+        
+
+        <div class="text_sb">
         <p>
+            <h1>¿Quienes Somos?</h1>
             <h2>Nuestra plataforma es el resultado de años de experiencia y dedicación en la industria de eventos. Nos enorgullece
             ofrecer una amplia gama de funciones y una interfaz intuitiva que facilita el descubrimiento y la selección de
             eventos. Nuestro equipo de expertos trabaja diligentemente para recopilar información precisa y actualizada sobre 
@@ -38,48 +61,53 @@
             contactarnos. Estamos aquí para escucharte y hacer que tu experiencia en EventTracker sea excepcional.
             </h2>
         </p>
+        </div>
+
+
         <div class="main-content">
-            <form class="contact-form">
-                <div class="mb-2">
-                     <label for="Nombre">Nombre:</label>
-                     <input type="text" name="nombre" id="name">
-                </div>
-                 <div class="mb-3">
-                     <label for="exampleInputEmail1" class="form-label">Email:</label>
-                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                     <div id="emailHelp" class="form-text"></div>
-                 </div>
-                <div class="mb-4">
-                     <label for="Telefono">Telefono:</label>
-                     <input type="text" name="Telefono" id="Telefono">
-                </div>
-                 <div class="mb-5">
-                     <label for="Mensaje">Comentario:</label>
-                     <textarea type="text" name="Mensaje" id="msj" cols="30" rows="5"></textarea>
-                </div>
-                <input class="searcher__button" type="submit" value="Enviar">
-            </form>
+            <div class="sub-content">
+                <h1>Queremos Conocerte</h1>
+                <h4>Este es el primer paso para el evento de tus sueños, dejanos tus datos, contamos que buscas y nos pondremos en contacto a la brevedad. O si preferís, contactate con nosotros llamándonos por teléfono o mandanos un mail a: "Busqueda_Evento@hotmail.com". <br>Será un placer ayudarte personalmente.
+
+                    Sabemos que el tiempo es oro así que nos adaptamos a tus horarios y nos acercamos a donde nos necesites.</h4>
+                <form class="contact-form">
+                    <div class="mb-2">
+                        <label for="Nombre">Nombre:</label><br><br>
+                        <input type="text" name="nombre" id="name"><br><br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email:</label><br><br>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div><br><br>
+                    </div>
+                    <div class="mb-4">
+                        <label for="Telefono">Telefono:</label><br><br>
+                        <input type="text" name="Telefono" id="Telefono"><br><br>
+                    </div>
+                    <div class="mb-5">
+                        <label for="Mensaje">Comentario:</label><br><br>
+                        <textarea type="text" name="Mensaje" id="msj" cols="50" rows="7"></textarea><br><br><br>
+                    </div>
+                        <!-- <input class="searcher__button" type="submit" value="Enviar"> -->
+                        <a href=""><h2>Enviar</h2></a>
+                
+                </form>
+            </div>
+
         </div>
     </main>
-        <footer class="pie_pagina">
+    <footer class="pie_pagina">
 
         
         <div class="icon3 center">
 
-            <!-- <ol class="items3 flex"> -->
-
-                <!-- <li class="enlaces-items3">  -->
-                    <a href="https://www.instagram.com/"><img src="../assets/imgs/logo-instagram.png" alt="facebook"></a>
-                <!-- </li> -->
-
-                <!-- <li class="enlaces-items3">  -->
-                    <a href="https://es-la.facebook.com/"><img src="../assets/imgs/logo-facebook.png" alt="instagram"></a>
-                <!-- </li> -->
-
-                <!-- <li class="enlaces-items3">  -->
-                    <a href="https://www.whatsapp.com/"><img src="../assets/imgs/logo-whatsapp.png" alt="whatsapp"></a>
-                <!-- </li> -->
-            <!-- </ol> -->
+                
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/imgs/logo-instagram.png" alt="facebook"></a>
+                       
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="../assets/imgs/logo-facebook.png" alt="instagram"></a>
+                
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="../assets/imgs/logo-whatsapp.png" alt="whatsapp"></a>
+                
 
         </div>
 

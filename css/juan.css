@@ -295,8 +295,64 @@ footer {
 
    
 
+   /*SobreNosotros*/
 
-      
+   .text_sb {
+
+      height: 400px;
+      width: 70%;
+      background-color: #32B7B7;
+      padding: 20px;
+      margin: 60px;
+      border-radius: 15px;
+   }
+
+   .text_sb h1 {
+
+      color: #f0ec2f;
+   }
+
+   .tittle {
+      background-color: #32B7B7;
+      margin: 15px;
+      text-align: left;
+      padding: 15px;
+      border-radius: 15px;
+   }
+
+   .main-content {
+
+      background-color: #32B7B7;
+      height: 800px;
+      width: 50%;
+      margin: 60px;
+      border-radius: 20px;
+   }
+
+   .main-content h1 {
+
+      color: #f0ec2f;
+   }
+
+   .contact-form input[type="email"] {
+
+      width: 200px;
+
+   }
+
+
+
+   .sub-content {
+
+      background-color: #6bd4d4;
+      height: 730px;
+      width: 90%;
+      margin: 20px;
+      padding: 10px;
+      text-align: center;
+   }
+
+
    
             
       
