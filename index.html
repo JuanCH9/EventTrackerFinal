@@ -4,125 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/manuel.css">
+    <link rel="stylesheet" href="./css/juan.css">
     <link rel="shortcut icon" href= "./assets/imgs/logo.png"/>
     <title>EventTracker</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
-    <title>Home</title>
 </head>
 <body>
-    <header class="header"> <!--Block-->
-        <div class="header__logo-container">
-            <a href="./index.html">
-                <img class="header__logo" src="./assets/imgs/logo.png" alt="Logo">
-            </a>
-        </div>
-        <div class="header__navBar-container">
-            <ul class="header__list-container">
-                <li class="header__item-navBar">
-                    <a href="./docs/sobreNosotros.html">Sobre nosotros</a>
-                </li>
-                <li class="header__item-navBar header__item-navBar--pipe">
-                    <a id="showLogin" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div class="main-content">
-            <div class="searcher"> <!--Block-->
-                <h2 class="searcher__title">Encuentra eventos en EventTracker</h2>
-                <form class="searcher__form">
-                    <div class="searcher__options-container">
-                        <p class="searcher__option-title">Dónde</p>
-                        <select class="searcher__input" name="place" id="place">
-                            <option value="Buenos Aires">Buenos Aires</option>
-                            <option value="Capital federal">Capital federal</option>
-                            <option value="Catamarca">Catamarca</option>
-                            <option value="Chaco">Chaco</option>
-                            <option value="Chubut">Chubut</option>
-                            <option value="Córdoba">Córdoba</option>
-                            <option value="Corrientes">Corrientes</option>
-                            <option value="Entre Ríos">Entre Ríos</option>
-                            <option value="Formosa">Formosa</option>
-                            <option value="Jujuy">Jujuy</option>
-                            <option value="La Pampa">La Pampa</option>
-                            <option value="La Rioja">La Rioja</option>
-                            <option value="Mendoza">Mendoza</option>
-                            <option value="Misiones">Misiones</option>
-                            <option value="Neuquén">Neuquén</option>
-                            <option value="Río Negro">Río Negro</option>
-                            <option value="Salta">Salta</option>
-                            <option value="San Juan">San Juan</option>
-                            <option value="San Luis">San Luis</option>
-                            <option value="Santa Cruz">Santa Cruz</option>
-                            <option value="Santa Fe">Santa Fe</option>
-                            <option value="Santiago del Estero">Santiago del Estero</option>
-                            <option value="Tierra del Fuego">Tierra del Fuego</option>
-                            <option value="Tucumán">Tucumán</option>
-                        </select>
-                    </div>
-                    <div class="searcher__options-container searcher__options-container__date">
-                        <label class="searcher__option-title searcher__option-title__date">Desde<input class="searcher__input" type="date"></label>
-                        <label class="searcher__option-title searcher__option-title__date">Hasta<input class="searcher__input" type="date"></label>
-                    </div>
-                    <div class="searcher__options-container">
-                        <p class="searcher__option-title">Categoría</p>
-                        <select class="searcher__input" name="category" id="category">
-                            <option value="Artistas musicales">Artistas musicales</option>
-                            <option value="Gastronomia">Gastronomia</option>
-                            <option value="VideoJuegos">VideoJuegos</option>
-                        </select>
-                    </div>
-                    <input class="searcher__button" type="submit" value="Buscar">
-                </form>
-            </div>
-            <section class="category"> <!--Block-->
-                <h2>Categorías populares</h2>
-                <a href="./docs/artistasMusicales.html">
-                    <div class="category__card"><span>Artistas musicales</span></div>
-                </a>
-                <a href="./docs/gastronomia.html">
-                    <div class="category__card"><span>Gastronomia</span></div>
-                </a>
-                <a href="./docs/videoJuegos.html">
-                    <div class="category__card"><span>Videojuegos</span></div>
-                </a>
-            </section>
-        </div>
-        <div id="loginContainer" class="inactive">
-            <div class="login"> <!--Block-->
-                <div class="login__icon-container">
-                    <img class="login__icon" src="./assets/icons/icon-close.svg" alt="Icono para cerrar">
-                </div>
-                <h2 class="login__title">Mi cuenta</h2>
-                <form class="login__form">
-                    <div class="login__input-container">
-                        <p class="login__input-title">Correo electrónico</p>
-                        <input id="inputEmail" class="login__input" type="email" placeholder="example@gmail.com" autocomplete="email" required>
+    <header class="header-event">
+
+        <div class="Icon1"> 
+            
+            <a href="./index.html" target="_blank"><img src="./assets/imgs/logo.png" alt="EventTracker"></a>
         
-                        <p class="login__input-title">Contraseña</p>
-                        <input id="inputPassword" class="login__input" type="password" required>
+        </div>
+
+        <nav class="nav-items">
+
+            <ul class="items">
+                
+                <li class="enlaces-items">
+                    <a href="./index.html" target="_blank">Home</a>
+                </li>
+                <li class="enlaces-items">
+                    <a href="./docs/sobreNosotros.html" target="_blank">Sobre nosotros</a>
+                </li>
+                <li class="enlaces-items">
+                    <a href="./docs/Login.html" target="_blank">Login</a>
+                </li>
+
+            </ul> 
+
+        </nav>
+
+    </header> <br><br>
+    <main class="head_principal">
+
+
+            <form class="form_searcher">
+
+                <div class="reg_f">
+
+                    <h1>Encuentra eventos en EventTracker</h1><br>
+
+                    <label for="where">Donde:</label><br><br>
+                    <select name="place" id="place"><br><br>
+       
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Capital federal">Capital federal</option>
+                        <option value="Catamarca">Catamarca</option>
+                        <option value="Chaco">Chaco</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Entre Ríos">Entre Ríos</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Neuquén">Neuquén</option>
+                        <option value="Río Negro">Río Negro</option>
+                        <option value="Salta">Salta</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="San Luis">San Luis</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
+                        <option value="Tierra del Fuego">Tierra del Fuego</option>
+                        <option value="Tucumán">Tucumán</option>
+
+
+                    </select><br><br>
+       
+                    <label for="from">Desde:</label><br><br>
+                    <input type="date" name="from" id="from" required><br><br>
+                
+                    <label for="until">Hasta:</label><br><br>
+                    <input type="date" name="until" id="until"><br><br>
+
+                    <label for="category">Categorias:</label><br><br>
+                    <select name="category" id="category">
+
+                        <option value="artistasMusicales"> Artistas Musicales</option>
+                        <option value="gastronomia">Gastronomia</option>
+                        <option value="videoJuegos">VideoJuegos</option>
+                        <option value="">.......</option>
+
+
+                    </select><br><br>
+       
+                    
+       
+                    
+                    <a href=""><h2>Buscar</h2></a>
+
+                </div>
+
+
+            </form>
+
+
+            
+            <form class="form_category">
+
+                <div class="popular_category">
+
+
+                    <div class="category_f">
+
+                        <h1>Categorias Populares</h1><br><br>
+
+                        <div class="box_cate">
+                            <a href="./docs/artistasMusicales.html" target="_blank"><h2>Artistas Musicales</h2></a>
+                        </div><br><br>
+
+                        <div class="box_cate">
+                            <a href="./docs/gastronomia.html" target="_blank"><h2>Gastronomia</h2></a>
+                        </div><br><br>
+
+                        <div class="box_cate">
+                            <a href="./docs/videoJuegos.html" target="_blank"><h2>VideoJuegos</h2></a>
+                        </div><br><br>
+                       
+
                     </div>
-                    <input class="login__button" type="button" value="Ingresar">
-                </form>
-            </div>
-        </div>
+
+            </form>
+
     </main>
-    <footer class="footer">
-        <div class="social-media"><!--Block-->
-            <a href="https://www.instagram.com/"><img src="./assets/imgs/logo-instagram.png" alt="logo de Instagram"></a>
-            <a href="https://es-la.facebook.com/"><img src="./assets/imgs/logo-facebook.png" alt="logo de Facebook"></a>
-            <a href="https://web.whatsapp.com/"><img src="./assets/imgs/logo-whatsapp.png" alt="Logo de whatsapp"></a>
+    <footer class="pie_pagina">
+
+        
+        <div class="icon3 center">
+
+                
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/imgs/logo-instagram.png" alt="facebook"></a>
+                       
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="./assets/imgs/logo-facebook.png" alt="instagram"></a>
+                
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="./assets/imgs/logo-whatsapp.png" alt="whatsapp"></a>
+                
+
         </div>
-        <div class="footer__icon-copyright">
-            <img src="./assets/imgs/icon-copyRight.svg" alt="Copyright">
+
+
+        <div class="icon2">
+
+            <img src="./assets/imgs/icon-copyRight.svg" alt="icon-copyRight">
+
         </div>
+
     </footer>
-    <script src="./login.js"></script>
 </body>
 </html>
